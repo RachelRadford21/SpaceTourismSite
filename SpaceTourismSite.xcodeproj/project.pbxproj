@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2FF0A92A78620A00A6F167 /* SpaceTourismSiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0A82A78620A00A6F167 /* SpaceTourismSiteApp.swift */; };
+		AB2FF0AB2A78620A00A6F167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0AA2A78620A00A6F167 /* ContentView.swift */; };
+		AB2FF0AD2A78620B00A6F167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2FF0AC2A78620B00A6F167 /* Assets.xcassets */; };
+		AB2FF0B02A78620B00A6F167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2FF0AF2A78620B00A6F167 /* Preview Assets.xcassets */; };
+		AB2FF0BA2A78620B00A6F167 /* SpaceTourismSiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0B92A78620B00A6F167 /* SpaceTourismSiteTests.swift */; };
+		AB2FF0C42A78620B00A6F167 /* SpaceTourismSiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0C32A78620B00A6F167 /* SpaceTourismSiteUITests.swift */; };
+		AB2FF0C62A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0C52A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2FF0B62A78620B00A6F167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2FF09D2A78620A00A6F167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2FF0A42A78620A00A6F167;
+			remoteInfo = SpaceTourismSite;
+		};
+		AB2FF0C02A78620B00A6F167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2FF09D2A78620A00A6F167 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2FF0A42A78620A00A6F167;
+			remoteInfo = SpaceTourismSite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2FF0A52A78620A00A6F167 /* SpaceTourismSite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTourismSite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2FF0A82A78620A00A6F167 /* SpaceTourismSiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteApp.swift; sourceTree = "<group>"; };
+		AB2FF0AA2A78620A00A6F167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB2FF0AC2A78620B00A6F167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2FF0AF2A78620B00A6F167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB2FF0B52A78620B00A6F167 /* SpaceTourismSiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTourismSiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2FF0B92A78620B00A6F167 /* SpaceTourismSiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteTests.swift; sourceTree = "<group>"; };
+		AB2FF0BF2A78620B00A6F167 /* SpaceTourismSiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTourismSiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2FF0C32A78620B00A6F167 /* SpaceTourismSiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteUITests.swift; sourceTree = "<group>"; };
+		AB2FF0C52A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2FF0A22A78620A00A6F167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2FF0B22A78620B00A6F167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2FF0BC2A78620B00A6F167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2FF09C2A78620A00A6F167 = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0A72A78620A00A6F167 /* SpaceTourismSite */,
+				AB2FF0B82A78620B00A6F167 /* SpaceTourismSiteTests */,
+				AB2FF0C22A78620B00A6F167 /* SpaceTourismSiteUITests */,
+				AB2FF0A62A78620A00A6F167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2FF0A62A78620A00A6F167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0A52A78620A00A6F167 /* SpaceTourismSite.app */,
+				AB2FF0B52A78620B00A6F167 /* SpaceTourismSiteTests.xctest */,
+				AB2FF0BF2A78620B00A6F167 /* SpaceTourismSiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2FF0A72A78620A00A6F167 /* SpaceTourismSite */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0A82A78620A00A6F167 /* SpaceTourismSiteApp.swift */,
+				AB2FF0AA2A78620A00A6F167 /* ContentView.swift */,
+				AB2FF0AC2A78620B00A6F167 /* Assets.xcassets */,
+				AB2FF0AE2A78620B00A6F167 /* Preview Content */,
+			);
+			path = SpaceTourismSite;
+			sourceTree = "<group>";
+		};
+		AB2FF0AE2A78620B00A6F167 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0AF2A78620B00A6F167 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB2FF0B82A78620B00A6F167 /* SpaceTourismSiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0B92A78620B00A6F167 /* SpaceTourismSiteTests.swift */,
+			);
+			path = SpaceTourismSiteTests;
+			sourceTree = "<group>";
+		};
+		AB2FF0C22A78620B00A6F167 /* SpaceTourismSiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0C32A78620B00A6F167 /* SpaceTourismSiteUITests.swift */,
+				AB2FF0C52A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift */,
+			);
+			path = SpaceTourismSiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2FF0A42A78620A00A6F167 /* SpaceTourismSite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2FF0C92A78620B00A6F167 /* Build configuration list for PBXNativeTarget "SpaceTourismSite" */;
+			buildPhases = (
+				AB2FF0A12A78620A00A6F167 /* Sources */,
+				AB2FF0A22A78620A00A6F167 /* Frameworks */,
+				AB2FF0A32A78620A00A6F167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceTourismSite;
+			productName = SpaceTourismSite;
+			productReference = AB2FF0A52A78620A00A6F167 /* SpaceTourismSite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2FF0B42A78620B00A6F167 /* SpaceTourismSiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2FF0CC2A78620B00A6F167 /* Build configuration list for PBXNativeTarget "SpaceTourismSiteTests" */;
+			buildPhases = (
+				AB2FF0B12A78620B00A6F167 /* Sources */,
+				AB2FF0B22A78620B00A6F167 /* Frameworks */,
+				AB2FF0B32A78620B00A6F167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2FF0B72A78620B00A6F167 /* PBXTargetDependency */,
+			);
+			name = SpaceTourismSiteTests;
+			productName = SpaceTourismSiteTests;
+			productReference = AB2FF0B52A78620B00A6F167 /* SpaceTourismSiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB2FF0BE2A78620B00A6F167 /* SpaceTourismSiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2FF0CF2A78620B00A6F167 /* Build configuration list for PBXNativeTarget "SpaceTourismSiteUITests" */;
+			buildPhases = (
+				AB2FF0BB2A78620B00A6F167 /* Sources */,
+				AB2FF0BC2A78620B00A6F167 /* Frameworks */,
+				AB2FF0BD2A78620B00A6F167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2FF0C12A78620B00A6F167 /* PBXTargetDependency */,
+			);
+			name = SpaceTourismSiteUITests;
+			productName = SpaceTourismSiteUITests;
+			productReference = AB2FF0BF2A78620B00A6F167 /* SpaceTourismSiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2FF09D2A78620A00A6F167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AB2FF0A42A78620A00A6F167 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					AB2FF0B42A78620B00A6F167 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AB2FF0A42A78620A00A6F167;
+					};
+					AB2FF0BE2A78620B00A6F167 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = AB2FF0A42A78620A00A6F167;
+					};
+				};
+			};
+			buildConfigurationList = AB2FF0A02A78620A00A6F167 /* Build configuration list for PBXProject "SpaceTourismSite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2FF09C2A78620A00A6F167;
+			productRefGroup = AB2FF0A62A78620A00A6F167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2FF0A42A78620A00A6F167 /* SpaceTourismSite */,
+				AB2FF0B42A78620B00A6F167 /* SpaceTourismSiteTests */,
+				AB2FF0BE2A78620B00A6F167 /* SpaceTourismSiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2FF0A32A78620A00A6F167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2FF0B02A78620B00A6F167 /* Preview Assets.xcassets in Resources */,
+				AB2FF0AD2A78620B00A6F167 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2FF0B32A78620B00A6F167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2FF0BD2A78620B00A6F167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2FF0A12A78620A00A6F167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2FF0AB2A78620A00A6F167 /* ContentView.swift in Sources */,
+				AB2FF0A92A78620A00A6F167 /* SpaceTourismSiteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2FF0B12A78620B00A6F167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2FF0BA2A78620B00A6F167 /* SpaceTourismSiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2FF0BB2A78620B00A6F167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2FF0C62A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift in Sources */,
+				AB2FF0C42A78620B00A6F167 /* SpaceTourismSiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2FF0B72A78620B00A6F167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2FF0A42A78620A00A6F167 /* SpaceTourismSite */;
+			targetProxy = AB2FF0B62A78620B00A6F167 /* PBXContainerItemProxy */;
+		};
+		AB2FF0C12A78620B00A6F167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2FF0A42A78620A00A6F167 /* SpaceTourismSite */;
+			targetProxy = AB2FF0C02A78620B00A6F167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB2FF0C72A78620B00A6F167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB2FF0C82A78620B00A6F167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2FF0CA2A78620B00A6F167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceTourismSite/Preview Content\"";
+				DEVELOPMENT_TEAM = 25MBFXXLA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB2FF0CB2A78620B00A6F167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceTourismSite/Preview Content\"";
+				DEVELOPMENT_TEAM = 25MBFXXLA7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB2FF0CD2A78620B00A6F167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25MBFXXLA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTourismSite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceTourismSite";
+			};
+			name = Debug;
+		};
+		AB2FF0CE2A78620B00A6F167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25MBFXXLA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTourismSite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceTourismSite";
+			};
+			name = Release;
+		};
+		AB2FF0D02A78620B00A6F167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25MBFXXLA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceTourismSite;
+			};
+			name = Debug;
+		};
+		AB2FF0D12A78620B00A6F167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25MBFXXLA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceTourismSite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2FF0A02A78620A00A6F167 /* Build configuration list for PBXProject "SpaceTourismSite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2FF0C72A78620B00A6F167 /* Debug */,
+				AB2FF0C82A78620B00A6F167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2FF0C92A78620B00A6F167 /* Build configuration list for PBXNativeTarget "SpaceTourismSite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2FF0CA2A78620B00A6F167 /* Debug */,
+				AB2FF0CB2A78620B00A6F167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2FF0CC2A78620B00A6F167 /* Build configuration list for PBXNativeTarget "SpaceTourismSiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2FF0CD2A78620B00A6F167 /* Debug */,
+				AB2FF0CE2A78620B00A6F167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2FF0CF2A78620B00A6F167 /* Build configuration list for PBXNativeTarget "SpaceTourismSiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2FF0D02A78620B00A6F167 /* Debug */,
+				AB2FF0D12A78620B00A6F167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2FF09D2A78620A00A6F167 /* Project object */;
+}
