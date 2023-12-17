@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct PickerImageView: View {
+    var imageTitle = ""
+    let width = UIScreen.main.bounds.width
+    let height = UIScreen.main.bounds.height
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(imageTitle)
+            .resizable()
+            .frame(width: 100, height: 100, alignment: .center)
+            .scaledToFit()
     }
 }
 

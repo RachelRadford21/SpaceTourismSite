@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Crew: Codable {
+    let name: String
+    let images: CrewImages
+    let role, bio: String
+}

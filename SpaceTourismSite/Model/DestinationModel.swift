@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Destination: Codable {
+    let name: String
+    let images: CrewImages
+    let description, distance, travel: String
+}

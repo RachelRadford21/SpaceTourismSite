@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct TechnologyImages: Codable {
+    let portrait, landscape: String
+}

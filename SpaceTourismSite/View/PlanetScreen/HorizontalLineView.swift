@@ -9,7 +9,11 @@ import SwiftUI
 
 struct HorizontalLineView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+                   Color.gray.frame(height: 2 / UIScreen.main.scale)
+                       .shadow(color: .black, radius: 2, x: 6, y: -2)
+                       .padding(.horizontal,130)
+               }
     }
 }
 

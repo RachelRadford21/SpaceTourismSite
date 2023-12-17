@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Technology: Codable {
+    let name: String
+    let images: TechnologyImages
+    let description: String
+}

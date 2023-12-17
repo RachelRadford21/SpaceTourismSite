@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct PlanetImageView: View {
+    let width = UIScreen.main.bounds.width
+    let height = UIScreen.main.bounds.height
+    var imageName = ""
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(imageName)
+            .resizable()
+            .frame(width: width >= 820 ? 250 : width <= 375 ? 100 : 170, height: height >= 1170 ? 250 : height <= 667 ? 100 : 170 , alignment: .center)
+            .scaledToFit()
+            .padding(.bottom, width >= 820 ? 20 : 5)
     }
 }
 

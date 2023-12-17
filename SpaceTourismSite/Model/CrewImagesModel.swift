@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct CrewImages: Codable {
+    let png, webp: String
+}

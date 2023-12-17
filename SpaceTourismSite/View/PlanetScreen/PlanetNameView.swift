@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct PlanetNameView: View {
+    let width = UIScreen.main.bounds.width
+    var name = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(name)
+                .foregroundColor(.white)
+                .font(.system(size: width >= 820 ? 90 : width == 375 ? 35 : 40))
+                .textCase(.uppercase)
+                .fontWeight(.bold)
+                .kerning(6)
+        }.padding(.bottom, width == 375 ? -20 : 0)
     }
 }
 

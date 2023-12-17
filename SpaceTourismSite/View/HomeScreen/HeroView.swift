@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct HeroView: View {
+    var size: CGFloat = 0.0
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("SPACE")
+                   .foregroundColor(.white)
+                   .font(.system(size: size))
+                   .kerning(15.0)
     }
 }
 
-struct HeroView_Previews: PreviewProvider {
-    static var previews: some View {
-        HeroView()
-    }
-}
+//struct HeroView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HeroView()
+//    }
+//}

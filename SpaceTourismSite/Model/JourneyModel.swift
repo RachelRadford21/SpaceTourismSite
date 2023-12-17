@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Journey: Codable {
+    let destinations: [Destination]
+    let crew: [Crew]
+    let technology: [Technology]
+}

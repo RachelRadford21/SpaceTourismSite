@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB038A1A2A9283B100A701E6 /* CrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB038A192A9283B100A701E6 /* CrewView.swift */; };
+		AB038A1C2A92845B00A701E6 /* TechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB038A1B2A92845B00A701E6 /* TechView.swift */; };
+		AB038A202A928EF100A701E6 /* PickerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB038A1F2A928EF100A701E6 /* PickerTextView.swift */; };
+		AB038A222A928FA500A701E6 /* PickerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB038A212A928FA500A701E6 /* PickerImageView.swift */; };
 		AB2FF0A92A78620A00A6F167 /* SpaceTourismSiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0A82A78620A00A6F167 /* SpaceTourismSiteApp.swift */; };
 		AB2FF0AB2A78620A00A6F167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0AA2A78620A00A6F167 /* ContentView.swift */; };
 		AB2FF0AD2A78620B00A6F167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2FF0AC2A78620B00A6F167 /* Assets.xcassets */; };
@@ -14,6 +18,41 @@
 		AB2FF0BA2A78620B00A6F167 /* SpaceTourismSiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0B92A78620B00A6F167 /* SpaceTourismSiteTests.swift */; };
 		AB2FF0C42A78620B00A6F167 /* SpaceTourismSiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0C32A78620B00A6F167 /* SpaceTourismSiteUITests.swift */; };
 		AB2FF0C62A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0C52A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift */; };
+		AB2FF0D82A78632F00A6F167 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AB2FF0D72A78632F00A6F167 /* data.json */; };
+		AB2FF0DA2A78649B00A6F167 /* CrewImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0D92A78649B00A6F167 /* CrewImagesModel.swift */; };
+		AB2FF0DC2A7864AA00A6F167 /* CrewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0DB2A7864AA00A6F167 /* CrewModel.swift */; };
+		AB2FF0DE2A7864BA00A6F167 /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0DD2A7864BA00A6F167 /* DestinationModel.swift */; };
+		AB2FF0E02A7864CC00A6F167 /* JourneyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0DF2A7864CC00A6F167 /* JourneyModel.swift */; };
+		AB2FF0E22A7864DB00A6F167 /* TechImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0E12A7864DB00A6F167 /* TechImageModel.swift */; };
+		AB2FF0E42A7864E800A6F167 /* TechnologyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0E32A7864E800A6F167 /* TechnologyModel.swift */; };
+		AB2FF0E62A78662800A6F167 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0E52A78662800A6F167 /* ViewModel.swift */; };
+		AB2FF0E82A78664B00A6F167 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0E72A78664B00A6F167 /* CoreDataViewModel.swift */; };
+		AB2FF0EA2A78673500A6F167 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0E92A78673500A6F167 /* CoreDataManager.swift */; };
+		AB2FF0ED2A78679A00A6F167 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0EB2A78679A00A6F167 /* CoreDataModel.xcdatamodeld */; };
+		AB2FF0F02A7C4EFB00A6F167 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0EF2A7C4EFB00A6F167 /* ViewRouter.swift */; };
+		AB2FF0F32A7C4FF300A6F167 /* ExploreButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0F22A7C4FF300A6F167 /* ExploreButtonView.swift */; };
+		AB2FF0F52A7C500100A6F167 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0F42A7C500100A6F167 /* HeaderView.swift */; };
+		AB2FF0F72A7C501200A6F167 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0F62A7C501200A6F167 /* HeroView.swift */; };
+		AB2FF0F92A7C504100A6F167 /* HomeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0F82A7C504100A6F167 /* HomeBackgroundView.swift */; };
+		AB2FF0FB2A7C504F00A6F167 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0FA2A7C504F00A6F167 /* HomeView.swift */; };
+		AB2FF0FD2A7C506200A6F167 /* ParagraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF0FC2A7C506200A6F167 /* ParagraphView.swift */; };
+		AB2FF1172A7C54DB00A6F167 /* DestinationBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1162A7C54DB00A6F167 /* DestinationBackgroundView.swift */; };
+		AB2FF1192A7C54EA00A6F167 /* DestinationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1182A7C54EA00A6F167 /* DestinationHeaderView.swift */; };
+		AB2FF11B2A7C54FF00A6F167 /* DistanceTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF11A2A7C54FF00A6F167 /* DistanceTimeView.swift */; };
+		AB2FF11D2A7C551100A6F167 /* EuropaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF11C2A7C551100A6F167 /* EuropaView.swift */; };
+		AB2FF11F2A7C552300A6F167 /* GoToDetailsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF11E2A7C552300A6F167 /* GoToDetailsButtonView.swift */; };
+		AB2FF1212A7C553600A6F167 /* HorizontalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1202A7C553600A6F167 /* HorizontalLineView.swift */; };
+		AB2FF1232A7C554400A6F167 /* MarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1222A7C554400A6F167 /* MarsView.swift */; };
+		AB2FF1252A7C555000A6F167 /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1242A7C555000A6F167 /* MoonView.swift */; };
+		AB2FF1272A7C556E00A6F167 /* PlanetButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1262A7C556E00A6F167 /* PlanetButtonView.swift */; };
+		AB2FF1292A7C55B000A6F167 /* PlanetDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1282A7C55B000A6F167 /* PlanetDescriptionView.swift */; };
+		AB2FF12B2A7C55C800A6F167 /* PlanetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF12A2A7C55C800A6F167 /* PlanetImageView.swift */; };
+		AB2FF12D2A7C55D700A6F167 /* PlanetNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF12C2A7C55D700A6F167 /* PlanetNameView.swift */; };
+		AB2FF12F2A7C55E500A6F167 /* PlanetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF12E2A7C55E500A6F167 /* PlanetRowView.swift */; };
+		AB2FF1312A7C55F200A6F167 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1302A7C55F200A6F167 /* PlanetView.swift */; };
+		AB2FF1332A7C560000A6F167 /* TitanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1322A7C560000A6F167 /* TitanView.swift */; };
+		AB2FF1362A7C563B00A6F167 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2FF1352A7C563B00A6F167 /* BackButtonView.swift */; };
+		AB3ECB082A8C261400AFF61B /* InfoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3ECB072A8C261400AFF61B /* InfoPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB038A192A9283B100A701E6 /* CrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewView.swift; sourceTree = "<group>"; };
+		AB038A1B2A92845B00A701E6 /* TechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechView.swift; sourceTree = "<group>"; };
+		AB038A1F2A928EF100A701E6 /* PickerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTextView.swift; sourceTree = "<group>"; };
+		AB038A212A928FA500A701E6 /* PickerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageView.swift; sourceTree = "<group>"; };
 		AB2FF0A52A78620A00A6F167 /* SpaceTourismSite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTourismSite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2FF0A82A78620A00A6F167 /* SpaceTourismSiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteApp.swift; sourceTree = "<group>"; };
 		AB2FF0AA2A78620A00A6F167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +87,42 @@
 		AB2FF0BF2A78620B00A6F167 /* SpaceTourismSiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTourismSiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2FF0C32A78620B00A6F167 /* SpaceTourismSiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteUITests.swift; sourceTree = "<group>"; };
 		AB2FF0C52A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTourismSiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB2FF0D72A78632F00A6F167 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AB2FF0D92A78649B00A6F167 /* CrewImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewImagesModel.swift; sourceTree = "<group>"; };
+		AB2FF0DB2A7864AA00A6F167 /* CrewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewModel.swift; sourceTree = "<group>"; };
+		AB2FF0DD2A7864BA00A6F167 /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
+		AB2FF0DF2A7864CC00A6F167 /* JourneyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyModel.swift; sourceTree = "<group>"; };
+		AB2FF0E12A7864DB00A6F167 /* TechImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechImageModel.swift; sourceTree = "<group>"; };
+		AB2FF0E32A7864E800A6F167 /* TechnologyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyModel.swift; sourceTree = "<group>"; };
+		AB2FF0E52A78662800A6F167 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AB2FF0E72A78664B00A6F167 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		AB2FF0E92A78673500A6F167 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		AB2FF0EC2A78679A00A6F167 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		AB2FF0EE2A7C3D1D00A6F167 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		AB2FF0EF2A7C4EFB00A6F167 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		AB2FF0F22A7C4FF300A6F167 /* ExploreButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreButtonView.swift; sourceTree = "<group>"; };
+		AB2FF0F42A7C500100A6F167 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AB2FF0F62A7C501200A6F167 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		AB2FF0F82A7C504100A6F167 /* HomeBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBackgroundView.swift; sourceTree = "<group>"; };
+		AB2FF0FA2A7C504F00A6F167 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AB2FF0FC2A7C506200A6F167 /* ParagraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphView.swift; sourceTree = "<group>"; };
+		AB2FF1162A7C54DB00A6F167 /* DestinationBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationBackgroundView.swift; sourceTree = "<group>"; };
+		AB2FF1182A7C54EA00A6F167 /* DestinationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationHeaderView.swift; sourceTree = "<group>"; };
+		AB2FF11A2A7C54FF00A6F167 /* DistanceTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTimeView.swift; sourceTree = "<group>"; };
+		AB2FF11C2A7C551100A6F167 /* EuropaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropaView.swift; sourceTree = "<group>"; };
+		AB2FF11E2A7C552300A6F167 /* GoToDetailsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToDetailsButtonView.swift; sourceTree = "<group>"; };
+		AB2FF1202A7C553600A6F167 /* HorizontalLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLineView.swift; sourceTree = "<group>"; };
+		AB2FF1222A7C554400A6F167 /* MarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsView.swift; sourceTree = "<group>"; };
+		AB2FF1242A7C555000A6F167 /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
+		AB2FF1262A7C556E00A6F167 /* PlanetButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetButtonView.swift; sourceTree = "<group>"; };
+		AB2FF1282A7C55B000A6F167 /* PlanetDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDescriptionView.swift; sourceTree = "<group>"; };
+		AB2FF12A2A7C55C800A6F167 /* PlanetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetImageView.swift; sourceTree = "<group>"; };
+		AB2FF12C2A7C55D700A6F167 /* PlanetNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNameView.swift; sourceTree = "<group>"; };
+		AB2FF12E2A7C55E500A6F167 /* PlanetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRowView.swift; sourceTree = "<group>"; };
+		AB2FF1302A7C55F200A6F167 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		AB2FF1322A7C560000A6F167 /* TitanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanView.swift; sourceTree = "<group>"; };
+		AB2FF1352A7C563B00A6F167 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		AB3ECB072A8C261400AFF61B /* InfoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +175,16 @@
 			children = (
 				AB2FF0A82A78620A00A6F167 /* SpaceTourismSiteApp.swift */,
 				AB2FF0AA2A78620A00A6F167 /* ContentView.swift */,
+				AB2FF0D42A78629700A6F167 /* Model */,
+				AB2FF0D22A78628500A6F167 /* View */,
+				AB2FF0D32A78628F00A6F167 /* ViewModel */,
+				AB2FF0D62A78630F00A6F167 /* CoreDataStack */,
+				AB2FF1342A7C561700A6F167 /* GlobalViews */,
+				AB2FF0D52A7862FA00A6F167 /* HelperFiles */,
+				AB2FF0D72A78632F00A6F167 /* data.json */,
 				AB2FF0AC2A78620B00A6F167 /* Assets.xcassets */,
 				AB2FF0AE2A78620B00A6F167 /* Preview Content */,
+				AB2FF0EE2A7C3D1D00A6F167 /* Notes.md */,
 			);
 			path = SpaceTourismSite;
 			sourceTree = "<group>";
@@ -125,6 +212,118 @@
 				AB2FF0C52A78620B00A6F167 /* SpaceTourismSiteUITestsLaunchTests.swift */,
 			);
 			path = SpaceTourismSiteUITests;
+			sourceTree = "<group>";
+		};
+		AB2FF0D22A78628500A6F167 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0F12A7C4FD900A6F167 /* HomeScreen */,
+				AB2FF1152A7C54B500A6F167 /* PlanetScreen */,
+				AB2FF0FE2A7C506C00A6F167 /* InformationScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB2FF0D32A78628F00A6F167 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0E52A78662800A6F167 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB2FF0D42A78629700A6F167 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0D92A78649B00A6F167 /* CrewImagesModel.swift */,
+				AB2FF0DB2A7864AA00A6F167 /* CrewModel.swift */,
+				AB2FF0DD2A7864BA00A6F167 /* DestinationModel.swift */,
+				AB2FF0DF2A7864CC00A6F167 /* JourneyModel.swift */,
+				AB2FF0E12A7864DB00A6F167 /* TechImageModel.swift */,
+				AB2FF0E32A7864E800A6F167 /* TechnologyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB2FF0D52A7862FA00A6F167 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0EF2A7C4EFB00A6F167 /* ViewRouter.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		AB2FF0D62A78630F00A6F167 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0E72A78664B00A6F167 /* CoreDataViewModel.swift */,
+				AB2FF0E92A78673500A6F167 /* CoreDataManager.swift */,
+				AB2FF0EB2A78679A00A6F167 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		AB2FF0F12A7C4FD900A6F167 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF0FA2A7C504F00A6F167 /* HomeView.swift */,
+				AB2FF0F82A7C504100A6F167 /* HomeBackgroundView.swift */,
+				AB2FF0F62A7C501200A6F167 /* HeroView.swift */,
+				AB2FF0F42A7C500100A6F167 /* HeaderView.swift */,
+				AB2FF0FC2A7C506200A6F167 /* ParagraphView.swift */,
+				AB2FF0F22A7C4FF300A6F167 /* ExploreButtonView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		AB2FF0FE2A7C506C00A6F167 /* InformationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB3ECB072A8C261400AFF61B /* InfoPickerView.swift */,
+				AB038A1F2A928EF100A701E6 /* PickerTextView.swift */,
+				AB038A212A928FA500A701E6 /* PickerImageView.swift */,
+				AB9AE4BD2A9297F500F74BDC /* PickerScreen */,
+			);
+			path = InformationScreen;
+			sourceTree = "<group>";
+		};
+		AB2FF1152A7C54B500A6F167 /* PlanetScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF1302A7C55F200A6F167 /* PlanetView.swift */,
+				AB2FF1162A7C54DB00A6F167 /* DestinationBackgroundView.swift */,
+				AB2FF1182A7C54EA00A6F167 /* DestinationHeaderView.swift */,
+				AB2FF12A2A7C55C800A6F167 /* PlanetImageView.swift */,
+				AB2FF12E2A7C55E500A6F167 /* PlanetRowView.swift */,
+				AB2FF1242A7C555000A6F167 /* MoonView.swift */,
+				AB2FF1222A7C554400A6F167 /* MarsView.swift */,
+				AB2FF11C2A7C551100A6F167 /* EuropaView.swift */,
+				AB2FF1322A7C560000A6F167 /* TitanView.swift */,
+				AB2FF12C2A7C55D700A6F167 /* PlanetNameView.swift */,
+				AB2FF1262A7C556E00A6F167 /* PlanetButtonView.swift */,
+				AB2FF1282A7C55B000A6F167 /* PlanetDescriptionView.swift */,
+				AB2FF1202A7C553600A6F167 /* HorizontalLineView.swift */,
+				AB2FF11A2A7C54FF00A6F167 /* DistanceTimeView.swift */,
+				AB2FF11E2A7C552300A6F167 /* GoToDetailsButtonView.swift */,
+			);
+			path = PlanetScreen;
+			sourceTree = "<group>";
+		};
+		AB2FF1342A7C561700A6F167 /* GlobalViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB2FF1352A7C563B00A6F167 /* BackButtonView.swift */,
+			);
+			path = GlobalViews;
+			sourceTree = "<group>";
+		};
+		AB9AE4BD2A9297F500F74BDC /* PickerScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AB038A1B2A92845B00A701E6 /* TechView.swift */,
+				AB038A192A9283B100A701E6 /* CrewView.swift */,
+			);
+			path = PickerScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +390,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					AB2FF0A42A78620A00A6F167 = {
 						CreatedOnToolsVersion = 14.0;
@@ -232,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2FF0B02A78620B00A6F167 /* Preview Assets.xcassets in Resources */,
+				AB2FF0D82A78632F00A6F167 /* data.json in Resources */,
 				AB2FF0AD2A78620B00A6F167 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +457,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2FF0DC2A7864AA00A6F167 /* CrewModel.swift in Sources */,
+				AB2FF0E62A78662800A6F167 /* ViewModel.swift in Sources */,
+				AB2FF1272A7C556E00A6F167 /* PlanetButtonView.swift in Sources */,
+				AB2FF0F72A7C501200A6F167 /* HeroView.swift in Sources */,
+				AB2FF0ED2A78679A00A6F167 /* CoreDataModel.xcdatamodeld in Sources */,
+				AB2FF0F02A7C4EFB00A6F167 /* ViewRouter.swift in Sources */,
+				AB2FF1172A7C54DB00A6F167 /* DestinationBackgroundView.swift in Sources */,
+				AB2FF11B2A7C54FF00A6F167 /* DistanceTimeView.swift in Sources */,
+				AB2FF1212A7C553600A6F167 /* HorizontalLineView.swift in Sources */,
+				AB2FF12B2A7C55C800A6F167 /* PlanetImageView.swift in Sources */,
 				AB2FF0AB2A78620A00A6F167 /* ContentView.swift in Sources */,
+				AB2FF0DA2A78649B00A6F167 /* CrewImagesModel.swift in Sources */,
+				AB2FF0FD2A7C506200A6F167 /* ParagraphView.swift in Sources */,
+				AB2FF12F2A7C55E500A6F167 /* PlanetRowView.swift in Sources */,
+				AB2FF1362A7C563B00A6F167 /* BackButtonView.swift in Sources */,
+				AB2FF1332A7C560000A6F167 /* TitanView.swift in Sources */,
 				AB2FF0A92A78620A00A6F167 /* SpaceTourismSiteApp.swift in Sources */,
+				AB2FF1232A7C554400A6F167 /* MarsView.swift in Sources */,
+				AB2FF0E82A78664B00A6F167 /* CoreDataViewModel.swift in Sources */,
+				AB2FF0FB2A7C504F00A6F167 /* HomeView.swift in Sources */,
+				AB2FF11D2A7C551100A6F167 /* EuropaView.swift in Sources */,
+				AB2FF0E22A7864DB00A6F167 /* TechImageModel.swift in Sources */,
+				AB2FF0E42A7864E800A6F167 /* TechnologyModel.swift in Sources */,
+				AB2FF0F52A7C500100A6F167 /* HeaderView.swift in Sources */,
+				AB2FF1192A7C54EA00A6F167 /* DestinationHeaderView.swift in Sources */,
+				AB2FF0F32A7C4FF300A6F167 /* ExploreButtonView.swift in Sources */,
+				AB038A1C2A92845B00A701E6 /* TechView.swift in Sources */,
+				AB038A202A928EF100A701E6 /* PickerTextView.swift in Sources */,
+				AB2FF1292A7C55B000A6F167 /* PlanetDescriptionView.swift in Sources */,
+				AB2FF1312A7C55F200A6F167 /* PlanetView.swift in Sources */,
+				AB3ECB082A8C261400AFF61B /* InfoPickerView.swift in Sources */,
+				AB2FF12D2A7C55D700A6F167 /* PlanetNameView.swift in Sources */,
+				AB2FF0E02A7864CC00A6F167 /* JourneyModel.swift in Sources */,
+				AB2FF11F2A7C552300A6F167 /* GoToDetailsButtonView.swift in Sources */,
+				AB038A1A2A9283B100A701E6 /* CrewView.swift in Sources */,
+				AB2FF0DE2A7864BA00A6F167 /* DestinationModel.swift in Sources */,
+				AB038A222A928FA500A701E6 /* PickerImageView.swift in Sources */,
+				AB2FF0F92A7C504100A6F167 /* HomeBackgroundView.swift in Sources */,
+				AB2FF1252A7C555000A6F167 /* MoonView.swift in Sources */,
+				AB2FF0EA2A78673500A6F167 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +569,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -391,6 +630,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -423,8 +663,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +672,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,8 +695,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +704,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.rar.SpaceTourismSite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +829,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB2FF0EB2A78679A00A6F167 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB2FF0EC2A78679A00A6F167 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = AB2FF0EC2A78679A00A6F167 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AB2FF09D2A78620A00A6F167 /* Project object */;
 }

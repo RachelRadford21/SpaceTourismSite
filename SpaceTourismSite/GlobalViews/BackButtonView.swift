@@ -10,21 +10,22 @@ import SwiftUI
 struct BackButtonView: View {
     @EnvironmentObject var vr: ViewRouter
     var page: Pages?
+    let width = UIScreen.main.bounds.width
     var body: some View {
-        VStack {
-            // Make this responsive to different screen sizes
-            Button {
-                vr.currentPage = .page2
-            } label: {
-                Image(systemName: "chevron.left")
-                    .resizable()
-                    .foregroundColor(.white)
-                    .frame(width: 10, height: 10)
-                    .padding(.trailing, 355)
-                    .padding(.bottom, 745)
-                
-            }
+        // When I made this using Button() the view was distorted/not lined up on screen. So I just made this button
+        HStack {
+            Image(systemName: "chevron.left")
+                .foregroundColor(.white)
+                .font(.system(size: 10))
+            Text("Back")
+                .foregroundColor(.white)
+                .font(.system(size: 10))
+                .padding(.trailing, width <= 375 ? 320 : 340)
+                .onTapGesture {
+                    vr.currentPage = .page2
+                }
         }
+    
     }
 }
 

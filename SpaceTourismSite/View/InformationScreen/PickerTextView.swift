@@ -14,10 +14,12 @@ struct PickerTextView: View {
         VStack(spacing: 10) {
             Text(title)
                 .foregroundColor(.white)
-                .font(.system(size: width == 820 ? 40 : 20))
+                .font(.system(size: width >= 390 ? 15 : 10))
                 .fontWeight(.bold)
+                .multilineTextAlignment(.center)
                 .padding(.bottom)
-        }.padding(.top, 30)
+        }
+         .padding(.horizontal, 10)
     }
 }
 
