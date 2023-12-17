@@ -1,10 +1,3 @@
-# Sprint One:
-
-- Add Tests - I dont need to test Core Data??
-- Add Views & UI Tests
-- Add .gitignore - this can be added by github or gitignore.io
-- 
-
 
 # iPhone Sizes:
 - iPhone SE: width - 375, height - 667
