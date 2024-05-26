@@ -5,4 +5,4 @@ This project is a challenge from
 - Your job is to deliver a product that meets the clients expectations.
 
 - I can't say I learned a ton but it was a fun project to build.
-  ![screen recording]("https://github.com/RachelRadford21/SpaceTourismSite/files/12443585/Simulator.Screen.Recording.-.iPhone.14.Plus.-.2023-08-25.at.17.18.53.mp4.zip")
+
